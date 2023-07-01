@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Slike/555.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1 align="center">Demo</h1>
+    <div class="content">
+        <div>
+            <table class="meni">
+                <tr>
+                    <th><a href="Index.html"> Home</a></th>
+                    <th><a href="Onama.html"> O nama</a></th>
+                    <th><a href="Proizvodi.html"> Proizvodi</a></th>
+                    <th><a href="okompaniji.html"> O kompaniji</a></th>
+                    <th><a href="Karijere.html"> Karijere</a></th>
+                    <th><a href="Kontakt.html"> Kontakt</a></th>
+                    <th><a href="Demo.html" class="active"> Demo</a></th>
+                </tr>
+            </table>
+
+
+        </div>
+        <br>
+        <div class="div1demo">
+            <h2>Izdracunaj priblizno dobijenu snagu</h2>
+            <div class="form__group2 field">
+                <label>Marka:</label>
+                <select id="button">
+                    <option selected="selected" value="Odaberite marku">Odaberite marku</option>
+                    <option value="1"> Audi</option>
+                    <option value="2"> BMW</option>
+                    <option value="3"> Mercedes</option>
+                    <option value="4">VW </option>
+                    <option value="5"> Honda </option>
+                    <option value="6"> Ostalo </option>
+                </select>
+
+
+                Koliku snagu trenutno ima auto: <input type="number" class="form__field" placeholder="BHP" id="snaga"
+                    name="snaga" required />
+
+
+                <br>
+                Sportski auspuh <input type="checkbox" id="mod2" value="1"><br>
+                Bregasta <input type="checkbox" id="mod3" value="1"><br>
+                Dizne i sistem goriva <input type="checkbox" id="mod4" value="1"><br>
+                Turbina <input type="checkbox" id="mod5" value="1"><br>
+                Bolji katalizator <input type="checkbox" id="mod6" value="1"> <br>
+                Usisna grana <input type="checkbox" id="mod7" value="1"><br>
+                Remap ECU <input type="checkbox" id="mod8" value="1"><br>
+                glava mtora <input type="checkbox" id="mod9" value="1"><br>
+                Blok motora<input type="checkbox" id="mod10" value="1"> <br>
+                NOS (nitrous oxide) <input type="checkbox" id="mod11" value="1"><br>
+                Stikeri<input type="checkbox" id="mod12" value="0"><br><br>
+                <input id="button" onclick="hpcalc()" type="button" value="racunaj"><br><br>
+                Snaga posle rada je:
+                <input readonly type="text" class="form__field" id="prikazihp" required />
+
+            
+            </div>
+
+            <div>
+                <img class="slikaDemo" src="Slike/555.png"  >
+                <p style="float: left;margin-left: 10%;">Racunanje snage se tacno utvdjuje u radionici.</p>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+        <br>
+        <div class="futer">
+            <div class="futer1">
+                <p>Mladen Stolic 5319 </p>
+                <p>Mladen.stole@gmail.com</p>
+            </div>
+
+            <div class="futer2">
+                
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a><br>
+                <a href="https://twitter.com/?lang=sr" class="fa fa-twitter"></a><br>
+                <a href="https://www.instagram.com" class="fa fa-instagram"><br></a><br>
+                Posetite nas na drustvenim mrezama
+            </div>
+            <br><br>
+           <p style="font-size: 15px;">Sva prava zadrzana od strane ChipTuning.rs</p>  
+        </div>
+        <script src="js.js"></script>
+</body>
+
+</html>

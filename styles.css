@@ -1,0 +1,258 @@
+body{
+   color: rgb(172, 235, 240);
+
+background-image: url("jpgbg.png");
+
+}
+p {
+  font-size: clamp(10px , 20px, 30px); 
+
+}
+a{
+    color: rgb(218, 246, 248);
+    text-decoration: none;
+    text-align: center;
+     
+}
+.active{
+  background-color: rgba(67, 140, 201, 0.5);
+  border-radius: 3px;
+  
+}
+.tekstIndeks{
+float: left;
+width: auto;
+margin-left: 20px;
+
+}
+.slikaIndeks{
+  width: auto;
+margin: 3%;
+
+  
+}
+.slikaIndeks:hover{
+  -webkit-transform:translateY(-10px);  
+
+  margin: 3%;
+  
+}
+
+.karijereSve{
+  margin-left: 25px;
+
+}
+.meni {
+  background-color: rgb(31, 43, 51);
+  overflow: hidden;
+  position: top;
+  bottom: 0;
+  width: 100%;
+  border: 2px solid rgb(7, 7, 7) ;
+  padding: 0%;
+ 
+}
+ .meni th,td{
+
+  border: none ;
+}
+th,td{
+
+  border: 2px solid rgb(7, 7, 7) ;
+}
+
+.slika{
+margin-top: 20px;
+margin-left: 30%;
+
+}
+
+.content{
+  width: 80%;
+  margin: auto;
+}
+.futer{
+  margin: bottom 4px;;
+  margin-top: auto;
+  position: fixed;
+  
+  left: 10%;
+  bottom: 0;
+  width: 80%;
+  background-color: rgba(86, 184, 230, 0.301);
+  color: white;
+  text-align: center;
+  border-radius: 3px;
+
+}
+.futer1{
+  width: 30%;
+  float: left;
+  margin-left: 10%;
+}
+.futer2{
+  width: 10%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+td .popup {
+  position: relative;
+}
+td .stadaizadje {
+  display: none;
+  position: absolute;
+  
+}
+td a:hover .stadaizadje {
+  display: block;
+}
+
+.t1px td{
+  padding: auto;
+  border: 2px solid black;
+  
+}
+
+.slika{
+ margin: 0;
+
+}
+
+#textareamoja{
+margin-top: 5px;
+resize: none;
+border-radius: 4px;
+background-color: rgb(55, 128, 150);
+border: 2px solid #ccc;
+opacity: 0.7;
+}
+
+
+.slikaDemo{
+  width: 30%;
+  height: auto;
+  float: left;
+ margin-left: 100px;
+
+}
+
+.div1Demo {
+  border: 3px solid #fff;
+  padding: 20px;
+  margin: auto;
+}
+
+
+.form__group {
+
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 40%;}
+
+.form__group2 {
+
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 40%;
+  float: left;}
+
+
+.form__field {
+  font-family: inherit;
+  width: 150px;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 3px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+placeholder{
+    color: transparent;
+  }
+
+  placeholder-shown ~ .form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1.3rem;
+  color: gray;
+}
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1.3rem;
+    color: #11998e;
+    font-weight:700;    
+  }
+  .form__field:focus {
+   
+    padding-bottom: 6px;  
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right,  #11998e, #38ef7d);
+    border-image-slice: 1;
+  }
+  
+
+  #button {
+    background-color: rgb(63, 176, 180);
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 20px; 
+  }
+  #file {
+    background-color: rgb(63, 176, 180);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  #divl{
+  
+    padding: 20px;
+    
+  }
+  
+  #div1{
+    width: 50%;
+    float: left;
+    padding: 20px;
+     
+  }
+
+.meniIndex{
+  padding-left: 10%;
+  float: left;
+
+}
+

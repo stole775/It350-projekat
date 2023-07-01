@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karijere</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Slike/555.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1 align="center">Karijere</h1>
+    <div class="content">
+        <div>
+            <table class="meni">
+                <tr>
+                    <th><a href="Index.html"> Home</a></th>
+                    <th><a href="Onama.html"> O nama</a></th>
+                    <th><a href="Proizvodi.html"> Proizvodi</a></th>
+                    <th><a href="okompaniji.html"> O kompaniji</a></th>
+                    <th><a href="Karijere.html" class="active"> Karijere</a></th>
+                    <th><a href="Kontakt.html"> Kontakt</a></th>
+                    <th><a href="Demo.html"> Demo</a></th>
+                </tr>
+            </table>
+
+
+        </div>
+        <br>
+        <div class="karijereSve">
+            <p>Trenutno je konkurs u toku za radno mesto: programer, mehanicar i tehnicar.</p>
+            <div class="karijereInput" style="float: left;">
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Ime" name="name" id='ime' required />
+                </div>
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Prezime" name="name" id='prezime' required />
+                </div>
+                <br>
+                <div>
+                    <input type="file" id="file" name="file"><br><br>
+                    <input type="button" id="button" value="Posalji" onclick="FunkcijaKarijere()">
+                </div>
+            </div>
+            <div>
+                <p id="karijereDopunaSubmit" style="float: left; margin-left: 180px; color: rgb(2, 3, 3); font-style: italic;" ></p>
+                <img src="" id="gif" width="300px" style="margin: 2%; margin-left: 15%;">
+            </div>
+        </div>
+
+
+
+        <br>
+        <div class="futer">
+            <div class="futer1">
+                <p>Mladen Stolic 5319 </p>
+                <p>Mladen.stole@gmail.com</p>
+            </div>
+
+            <div class="futer2">
+
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a><br>
+                <a href="https://twitter.com/?lang=sr" class="fa fa-twitter"></a><br>
+                <a href="https://www.instagram.com" class="fa fa-instagram"><br></a><br>
+                Posetite nas na drustvenim mrezama
+            </div>
+            <br><br>
+            <p style="font-size: 15px;">Sva prava zadrzana od strane ChipTuning.rs</p>
+        </div>
+
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>

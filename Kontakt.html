@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Slike/555.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1 align="center">Kontakt</h1>
+    <div class="content">
+        <div>
+            <table class="meni">
+                <tr>
+                    <th><a href="Index.html"> Home</a></th>
+                    <th><a href="Onama.html"> O nama</a></th>
+                    <th><a href="Proizvodi.html"> Proizvodi</a></th>
+                    <th><a href="okompaniji.html"> O kompaniji</a></th>
+                    <th><a href="Karijere.html"> Karijere</a></th>
+                    <th><a href="Kontakt.html" class="active"> Kontakt</a></th>
+                    <th><a href="Demo.html"> Demo</a></th>
+                </tr>
+            </table>
+
+
+        </div>
+        <br>
+
+
+
+        <div id="divl">
+            <div id="div1">
+                <form class="formaUnosa">
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Ime" id="kime" name="ime" required />
+                    </div>
+
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Prezime" id="kprezime" name="prezime"
+                            required />
+                    </div>
+
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Naslov" id="knaslov" name="naslov"
+                            required />
+                    </div>
+                    <br>
+                    <textarea rows="5" cols="30" style="margin-top: 4px;" id="textareamoja" onmousedown=value=""
+                        ;>Unesi tekst...:</textarea>
+
+                    <div class="form__group field">
+                        <input type="input" class="form__field" placeholder="Broj telefona:" id="kbroj" name="kbroj"
+                            required />
+                    </div>
+                    <br>
+                    <label id="label">Tip poruke:</label>
+
+                    <select name="cars" id="button">
+                        <option value="problem">Za problem automobila</option>
+                        <option value="cipovanje">Za cipovanje</option>
+                        <option value="termin">Za zakazivanje termina</option>
+                        <option value="ostalo">Ostalo</option>
+                    </select>
+                    <input type="button" id="button" value="Posalji" onclick="FunkcijaKontakt()"><br>
+                    <br>
+
+                </form>
+            </div>
+
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4105.994205286028!2d21.904528432304083!3d43.30638054486931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0a1d90727bd%3A0x72ef876d2e629b40!2zQ2hpcCBUdW5pbmcgTWFuxI1pxIc!5e0!3m2!1sen!2srs!4v1640425256790!5m2!1sen!2srs"
+                    width="500" height="350" style="border:solid black 3px;" allowfullscreen="" loading="lazy"></iframe>
+                <p >Broj telefona 0652581559</p>
+                <br><br><br><br><br>
+            </div>
+        </div>
+
+
+      
+        </div>
+        <br>
+        <div class="futer">
+            <div class="futer1">
+                <p>Mladen Stolic 5319 </p>
+                <p>Mladen.stole@gmail.com</p>
+            </div>
+
+            <div class="futer2">
+
+                <a href="https://www.facebook.com" class="fa fa-facebook"></a><br>
+                <a href="https://twitter.com/?lang=sr" class="fa fa-twitter"></a><br>
+                <a href="https://www.instagram.com" class="fa fa-instagram"><br></a><br>
+                Posetite nas na drustvenim mrezama
+            </div>
+            <br><br>
+            <p style="font-size: 15px;">Sva prava zadrzana od strane ChipTuning.rs</p>
+        </div>
+
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
